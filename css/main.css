@@ -4,7 +4,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -12,16 +12,14 @@ body {
 }
 
 h1 {
-  display: block;
-
   background-color: #efeee9;
   color: #392910;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  display: block;
   font-size: 3rem;
   font-weight: bold;
-  text-align: center;
+  margin: 0;
   padding: .5em;
+  text-align: center;
 }
 
 a {
@@ -30,16 +28,15 @@ a {
   text-decoration: none;
 }
 
-ol {
-  margin-block-start: 0;
-  margin-block-end: 0;
+ul {
+  margin: 0;
 }
 
 .nav-boxes {
   font-weight: bold;
   list-style-type: none;
-  text-align: center;
   padding: 0;
+  text-align: center;
 }
 
 .nav-boxes li {
@@ -49,5 +46,5 @@ ol {
 }
 
 .nav-boxes li:hover {
-  background-color: 795437;
+  background-color: #795437;
 }
