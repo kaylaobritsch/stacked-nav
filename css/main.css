@@ -1,11 +1,38 @@
 html {
-	box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
 }
 
-nav {
-  font-family: "Dosis", sans-serif;
+
+
+h1{
+  display: block;
+  padding: 1em;
+  background-color: #9a816d;  
+}
+
+a {
+  color: #efeee9;
+  text-decoration: none;
+}
+
+.nav-boxes {
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-boxes li {
+  display: block;
+  padding: 1em;
+  background-color: #9a816d;
+  border: 2px solid #795437;
+}
+
+.nav-boxes li:hover {
+  background-color: 795437;
 }
