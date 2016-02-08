@@ -7,27 +7,42 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 
-
-h1{
+h1 {
   display: block;
-  padding: 1em;
-  background-color: #9a816d;  
+
+  background-color: #efeee9;
+  color: #392910;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .5em;
 }
 
 a {
   color: #efeee9;
+  font-size: 1rem;
   text-decoration: none;
+}
+
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .nav-boxes {
   font-weight: bold;
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 .nav-boxes li {
-  display: block;
   padding: 1em;
   background-color: #9a816d;
   border: 2px solid #795437;
